@@ -54,7 +54,7 @@ function add() {
     var value = todoInput.value;
     var priority = priorityInput.value;
     if (value === '') {
-        alert("😮 Task cannot be empty")
+        alert("Task cannot be empty")
         return;
     }
     todoList.push({
